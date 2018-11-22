@@ -14,6 +14,6 @@ def prime?(number)
 
 # end
 (2..number).each do |num|
-  return false (number/number== 1  && number/1==number)? true : false
+  return (number/number== 1  && number/1==number)? true : false
 end
 end
