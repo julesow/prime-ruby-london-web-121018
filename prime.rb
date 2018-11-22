@@ -33,7 +33,8 @@ while i < number
 number+=1 
   if prime?number
     i +=1 
-    
+  end
+end
 
 
 
