@@ -32,6 +32,7 @@ i = 2
 while i < number
 number+=1 
   if prime?number
+    i
 
 
 
