@@ -6,9 +6,10 @@ def prime?(number)
   #   return false
   # end
   while number > 1
-  (2..number).each  do |number|
+  (2..number).each {|number|
     (number/number== 1  && number/1==number) ? true : false
     number++
+  }
   end 
 end 
 end
