@@ -20,4 +20,6 @@ def prime?(number)
 #     false
 # end
 # end
+(2...number).each do |num|
+  
 end
