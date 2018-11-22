@@ -27,10 +27,10 @@ def prime?(number)
   end
   return true
 end
-
+number = 2 
 i = 2 
 while i < number
-number+=1 
+number +=1 
   if prime?number
     i +=1 
   end
