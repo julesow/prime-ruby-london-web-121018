@@ -7,4 +7,5 @@ when  number > 2
   (number/number== 1  && number/1==number) ? true : false
  else
    number%2 == 0 || number/1 != number
+   return false
 end
