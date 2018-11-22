@@ -9,7 +9,8 @@ if (number/number== 1  && number/1==number)
  return true 
  else
    return false
-   number+=1
-end
+  end
+  number+=1
+
 end
 end
