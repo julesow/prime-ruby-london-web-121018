@@ -7,37 +7,40 @@ def prime?(number)
 # while number > 2
 # if (number/number== 1  && number/1==number)
 # return true 
-# else
-#   return false
-#   end
-#   number+=1
+# # else
+# #   return false
+# #   end
+# #   number+=1
 
+# # # end
+# # (2..number).each do |num|
+# # if (number/number== 1  && number/1==number)
+# #   return true 
+# #   else number < 2
+# #     false
 # # end
-# (2..number).each do |num|
-# if (number/number== 1  && number/1==number)
-#   return true 
-#   else number < 2
-#     false
+# # end
+# (2...number).each do |num|
+#     if number%num == 0 
+#       return false
+#     end
+#   end
+#   return true
 # end
+# number = 2 
+# i = 2 
+# while i < number
+# number +=1 
+#   if prime?number
+#     i +=1 
+#   end
 # end
-(2...number).each do |num|
-    if number%num == 0 
-      return false
-    end
-  end
-  return true
-end
-number = 2 
-i = 2 
-while i < number
-number +=1 
-  if prime?number
-    i +=1 
-  end
-end
 
 
+def prime?(number)
+  (2..number-1).each{|n| }
 
+end 
 
 
 
