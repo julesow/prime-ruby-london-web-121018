@@ -5,3 +5,4 @@ def prime?(number)
   else 
     (number/number== 1  && number/1==number) ? true : false
 end
+end
