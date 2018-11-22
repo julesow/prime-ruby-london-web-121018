@@ -5,6 +5,7 @@ def prime?(number)
   # else
   #   return false
   # end
+  while number >1 do 
   (number/number== 1  && number/1==number) ? true : false
-  
+end
 end
