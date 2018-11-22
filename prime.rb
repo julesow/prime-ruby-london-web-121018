@@ -13,5 +13,5 @@ def prime?(number)
 #   number+=1
 
 # end
-
+(2..number).each
 end
