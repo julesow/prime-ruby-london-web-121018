@@ -4,5 +4,5 @@ def prime?(number)
    return false
   end
   (number/number== 1  && number/1==number) ? true : false
-
+(number/number!= 1  || number/1!=number) ? false : true
 end
