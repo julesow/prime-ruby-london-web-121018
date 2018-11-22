@@ -29,7 +29,9 @@ def prime?(number)
 end
 
 i = 2 
-while 
+while i < number
+number+=1 
+
 
 
 
