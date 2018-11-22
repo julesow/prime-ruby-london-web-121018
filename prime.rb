@@ -1,8 +1,9 @@
 # Add  code here!
 def prime?(number)
-if number < 2 
+case number 
+ when < 2
   return false
-else 
-  (number > 2 && number/number== 1  && number/1==number) ? false : true
+when  number > 2
+  (number/number== 1  && number/1==number) ? true : false
  end  
 end
