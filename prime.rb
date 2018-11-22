@@ -27,3 +27,15 @@ def prime?(number)
   end
   return true
 end
+
+i = 2 
+while 
+
+
+
+
+
+
+
+
+
