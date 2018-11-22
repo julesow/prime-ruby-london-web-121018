@@ -5,11 +5,11 @@ def prime?(number)
   # else
   #   return false
   # end
-  while number > 2
-  (2..number).each {|number|
+  # while number > 2
+  # (2..number).each {|number|
     (number/number== 1  && number/1==number) ? true : false
-    number++
-  }
-  end 
-end 
+    
+
+ 
+
 end
